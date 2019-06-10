@@ -1,0 +1,23 @@
+.form.bmi {
+  width: 240px;
+}
+
+.form.bmi .ui.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form.bmi .ui.error.message {
+  font-size: 11px;
+}
+
+.form.bmi .button {
+  background: #FF6379;
+  color: white;
+}
+
+.form.bmi .button:hover {
+  background: #FF415B;
+  color: white;
+}

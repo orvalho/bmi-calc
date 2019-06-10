@@ -1,0 +1,26 @@
+.app {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #ffe4ee, #ffc6d8, #ffa6bc, #ff869c, #ff6379);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app .ui.segment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 25px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.app h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+.app img {
+  margin-left: 10px;
+}
